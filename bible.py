@@ -9,7 +9,7 @@ API_TOKEN = '6730305948:AAFvksgeeVKlgsU65qgllHgaoD3kXj3J2Lw'  # Replace with you
 bot = telebot.TeleBot(API_TOKEN)
 
 # Path to your directory containing the JSON files
-directory_path = '/storage/emulated/0/Bible/'
+directory_path = 'Bible-bot/'
 
 # Get a list of all JSON files in the directory
 file_paths = glob.glob(os.path.join(directory_path, '*.json'))
