@@ -5,7 +5,7 @@ import telebot
 from telebot import types
 from rapidfuzz import process
 
-API_TOKEN = '6730305948:AAFvksgeeVKlgsU65qgllHgaoD3kXj3J2Lw'  # Replace with your actual API token
+API_TOKEN = '6730305948:AAGy4z6zXFxopXXPgCvAP4Nk5JpMfpQm6yQ'  # Replace with your actual API token
 bot = telebot.TeleBot(API_TOKEN)
 
 # Path to your directory containing the JSON files
